@@ -54,6 +54,7 @@ export default function Map() {
           <Link
             data-bs-toggle="tooltip"
             data-bs-placement="top"
+            to="cuscatlan"
             onClick={() => tooltip.hide()}
             data-bs-custom-className="custom-tooltip"
             data-bs-title="Cuscatlán"
@@ -82,6 +83,7 @@ export default function Map() {
           <Link
             data-bs-toggle="tooltip"
             data-bs-placement="top"
+            to="la-paz"
             onClick={() => tooltip.hide()}
             data-bs-custom-className="custom-tooltip"
             data-bs-title="La Paz"
@@ -208,6 +210,7 @@ export default function Map() {
           <Link
             data-bs-toggle="tooltip"
             data-bs-placement="top"
+            to="santa-ana"
             data-bs-custom-className="custom-tooltip"
             data-bs-title="Santa Ana"
             onClick={() => tooltip.hide()}
