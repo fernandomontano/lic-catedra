@@ -1,10 +1,10 @@
 import React from "react";
-import img from "../../../public/sonsonate.jpg";
+import img from "../../../public/chalatenango.jpg";
 
 import "../../styles/image.css";
 
 
-export default function Sonsonate() {
+export default function Chalatenango() {
   return (<div className="container container-fluid h-100">
   <section className="mx-5 rounded d-flex align-items-center h-100 ">
     <div className="d-flex flex-column rounded flex-wrap bg-light">
@@ -13,15 +13,15 @@ export default function Sonsonate() {
           <img src={img} className="rounded"></img>
         </div>
         <div className="text-center d-flex flex-column responsive-width p-4">
-          <h1 className="mt-2 ">Sonsonate</h1>
-          <div className="text-danger">"La ciudad de los cocos"</div>
+          <h1 className="mt-2 ">Chalatenango</h1>
+          <div className="text-danger">"Valle de aguas y arena"</div>
           <div className="lh-lg">
-          Sonsonate es una antigua provincia de la Capitanía General de Guatemala que obtuvo su independencia 
-          de España en 1821 y que a partir de 1824 junto con la provincia de San Salvador formaron el 
-          país que hoy es llamado El Salvador.
-          El Departamento está ubicado en la zona occidental del país. Tiene un área de 1225.77 
-          km&sup2; y una población estimada de 
-          438 960 habitantes (2007), con una densidad de población de aproximadamente 423 hab/km&sup2;
+          El nombre Chalatenango es de origen náhuat, y proviene de chal, shal (arena); at, (agua): río; 
+          y tenango (valle). Etimológicamente, valle de aguas y arena.
+          Chalatenango se asienta en el borde sur de la Sierra Madre a su paso por Centroamérica.
+          Chalatenango se convirtió en un importante centro del cultivo del añil y se mantuvo como tal 
+          durante todo el período colonial, esto ocasionó que el municipio junto a todo el 
+          departamento se posicionara como un productor añilero.
           </div>
         </div>
       </div>
@@ -32,5 +32,6 @@ export default function Sonsonate() {
     </div>
   </section>
   <div></div>
-</div>);
+</div>
+  );
 }

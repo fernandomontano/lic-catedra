@@ -67,6 +67,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+            to="la-libertad"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             onClick={() => tooltip.hide()}
@@ -96,6 +97,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+            to="sonsonate"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             onClick={() => tooltip.hide()}
@@ -194,6 +196,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+            to="chalatenango"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             data-bs-custom-className="custom-tooltip"

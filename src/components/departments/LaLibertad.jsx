@@ -1,10 +1,9 @@
 import React from "react";
-import img from "../../../public/sonsonate.jpg";
+import img from "../../../public/lalibertad.jpg";
 
 import "../../styles/image.css";
 
-
-export default function Sonsonate() {
+export default function LaLibertad() {
   return (<div className="container container-fluid h-100">
   <section className="mx-5 rounded d-flex align-items-center h-100 ">
     <div className="d-flex flex-column rounded flex-wrap bg-light">
@@ -13,15 +12,15 @@ export default function Sonsonate() {
           <img src={img} className="rounded"></img>
         </div>
         <div className="text-center d-flex flex-column responsive-width p-4">
-          <h1 className="mt-2 ">Sonsonate</h1>
-          <div className="text-danger">"La ciudad de los cocos"</div>
+          <h1 className="mt-2 ">La Libertad</h1>
+          <div className="text-danger">"Departamento playero"</div>
           <div className="lh-lg">
-          Sonsonate es una antigua provincia de la Capitanía General de Guatemala que obtuvo su independencia 
-          de España en 1821 y que a partir de 1824 junto con la provincia de San Salvador formaron el 
-          país que hoy es llamado El Salvador.
-          El Departamento está ubicado en la zona occidental del país. Tiene un área de 1225.77 
-          km&sup2; y una población estimada de 
-          438 960 habitantes (2007), con una densidad de población de aproximadamente 423 hab/km&sup2;
+          La Libertad es un departamento de El Salvador. Su capital es la ciudad de Santa Tecla, capital 
+          también del municipio homónimo. 
+          Tiene una extensión territorial de 112 km&sup2; y una población de 121,908 habitantes.
+          El departamento de la Libertad consta con la mayoría de las mejores playas de todo el país, ya sean 
+          para disfrutar nadando o practicando algún deporte extremo acuático como el surf, windsurf, kayaking, etc.
+
           </div>
         </div>
       </div>
@@ -32,5 +31,6 @@ export default function Sonsonate() {
     </div>
   </section>
   <div></div>
-</div>);
+</div>
+  );
 }
