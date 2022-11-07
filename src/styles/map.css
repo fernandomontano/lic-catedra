@@ -1,4 +1,4 @@
-path {
+two {
   fill: #5b62f4;
   stroke: #3c4096;
   stroke-width: 0.1rem;
@@ -9,7 +9,7 @@ a {
 .w {
   width: 60%;
 }
-path:hover {
+two:hover {
   fill: #dfe1ff;
   transform: scale(1.0009);
   transform-origin: center;

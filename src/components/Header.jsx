@@ -6,7 +6,7 @@ import "../styles/styles.css";
 export default function Header() {
   return (
     <div className="vh-100">
-      <header className="fixed-top">
+      <header className="sticky">
         <nav className="navbar navbar-expand-lg navbar-light bg-light px-5">
           <div className="container-fluid px-5">
             <Link to="/" className="navbar-brand" href="#">

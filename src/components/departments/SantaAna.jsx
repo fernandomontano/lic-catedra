@@ -1,34 +1,64 @@
 import React from "react";
 import img from "../../../public/jennie-clavel-ZCT3-udB2-w-unsplash.jpg";
-import img2 from "../../../public/Santa-Ana-Gothic-Cathedral-1000x667.jpg";
-
 import "../../styles/image.css";
+import { UilUserArrows } from "@iconscout/react-unicons";
+import { UilUsersAlt } from "@iconscout/react-unicons";
+import { UilDollarAlt } from "@iconscout/react-unicons";
 
 export default function SantaAna() {
   return (
-    <div className="container container-fluid h-100">
-      <section className="mx-5 rounded d-flex align-items-center h-100 ">
-        <div className="d-flex flex-column rounded flex-wrap bg-light">
-          <div className="d-flex justify-content-around align-items-center flex-wrap">
-            <div>
-              <img src={img} className="rounded"></img>
-            </div>
-            <div className="text-center d-flex flex-column responsive-width p-4">
-              <h1 className="mt-2 ">Santa Ana</h1>
-              <div className="text-danger">"La ciudad Morena"</div>
-              <div className="lh-lg">
-                El municipio de Santa Ana tiene una población estimada de 264
-                091 habitantes para el año 2013, ocupando el segundo lugar en
-                población. Para su administración se divide en 34 cantones y 312
-                caseríos, mientras que la propia ciudad se divide en 12 barrios
-                y varias colonias. La localidad celebra sus fiestas patronales
-                durante las «Fiestas Julias», del 17 al 26 de julio.
+    <div className="container container-fluid mt-3">
+      <section className="rounded d-flex align-items-center justify-content-center flex-wrap h-100 w-100">
+        <div className="bg-light rounded w-75 d-flex flex-column justify-content-center ">
+          <div className="p-5 d-flex flex-wrap justify-content-around align-items-center">
+            <img
+              src={img}
+              alt="Teatro"
+              className="img-fluid rounded"
+              width="400px"
+            />
+            <div className="text-center mt-3 lh-lg responsive-width">
+              <h3>Santa Ana</h3>
+              <h4 className="text-danger">"La ciudad Morena"</h4>
+              <div>
+                Santa Ana es una ciudad salvadoreña, cabecera del municipio,
+                departamento, distrito y sede de la diócesis homónimos; y es la
+                ciudad principal de la zona occidental, y segunda ciudad en
+                importancia de El Salvador, ubicada a 64 km de la capital
+                estatal, San Salvador.
               </div>
             </div>
           </div>
-          <div className="d-flex flex-column justify-content-around p-2">
-            <div className="line bg-secondary rounded mb-3"></div>
-            <div className="d-flex justify-content-around"></div>
+          <div className="d-flex justify-content-around">
+            <div className="line bg-secondary rounded-1"></div>
+          </div>
+          <div className="px-5 py-3">
+            <h3>General</h3>
+            <div className="">
+              <div className="d-flex justify-content-between align-items-center gap-2 flex-wrap my-2 center-card">
+                <div className="bg-secondary rounded">
+                  <div className="p-3 text-center">
+                    <UilUserArrows size="50" color="#f0f5fa" />
+                    <h5>Gentilicio</h5>
+                    <p>"Santaneco (a)"</p>
+                  </div>
+                </div>
+                <div className="bg-secondary rounded">
+                  <div className="p-3 text-center">
+                    <UilUsersAlt size="50" color="#f0f5fa" />
+                    <h5>Población</h5>
+                    <p>Total 264,091 hab.</p>
+                  </div>
+                </div>
+                <div className="bg-secondary rounded">
+                  <div className="p-3 text-center">
+                    <UilDollarAlt size="50" color="#f0f5fa" />
+                    <h5>Presupuesto anual</h5>
+                    <p>25 464 482.33 US$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
