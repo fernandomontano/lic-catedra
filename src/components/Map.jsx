@@ -14,7 +14,7 @@ export default function Map() {
 
   return (
     <div className="container container-fluid overflow-hidden">
-      <div className="w-75 m-auto w d-flex align-items-center p-2 ">
+      <div className="w-75 m-auto w d-flex align-items-center p-2 mt-2">
         <svg
           version="1.2"
           viewBox="0 0 1000 549"

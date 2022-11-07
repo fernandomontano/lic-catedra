@@ -1,21 +1,4 @@
-img {
-  width: 400px;
-}
-
-@media (min-width: 500px) {
-  img {
-    width: 400px;
-  }
-  .responsive-width {
-    width: 40%;
-  }
-}
-@media (max-width: 1000px) {
-  .responsive-width {
-    width: 95%;
-  }
-}
 .line {
-  width: 100%;
+  width: 90%;
   height: 0.5rem;
 }
