@@ -112,6 +112,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+            to="san-salvador"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             onClick={() => tooltip.hide()}
@@ -126,6 +127,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+          to="la-union"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             onClick={() => tooltip.hide()}
@@ -140,6 +142,7 @@ export default function Map() {
             ></path>
           </Link>
           <Link
+            to="morazan"
             data-bs-toggle="tooltip"
             data-bs-placement="top"
             onClick={() => tooltip.hide()}

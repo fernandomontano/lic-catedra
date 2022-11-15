@@ -8,9 +8,12 @@ import LaLibertad from "./components/departments/LaLibertad";
 import LaPaz from "./components/departments/LaPaz";
 import SantaAna from "./components/departments/SantaAna";
 import Sonsonate from "./components/departments/Sonsonate";
+import Morazan from "./components/departments/Morazan";
 import Developers from "./components/Developers";
 import Header from "./components/Header";
 import Map from "./components/Map";
+import LaUnion from "./components/departments/LaUnion";
+import SanSalvador from "./components/departments/SanSalvador";
 
 function App() {
   return (
@@ -25,15 +28,15 @@ function App() {
           <Route path="sonsonate" element={<Sonsonate />} />
           <Route path="la-libertad" element={<LaLibertad />} />
           <Route path="chalatenango" element={<Chalatenango />} />
-          <Route path="san-salvador" element={<Contact />} />
+          <Route path="san-salvador" element={<SanSalvador />} />
           <Route path="cuscatlan" element={<Cuscatlan />} />
           <Route path="la-paz" element={<LaPaz />} />
           <Route path="san-vicente" element={<Contact />} />
           <Route path="cabañas" element={<Cabañas />} />
           <Route path="usulutan" element={<Contact />} />
           <Route path="san-miguel" element={<Contact />} />
-          <Route path="morazan" element={<Contact />} />
-          <Route path="la-union" element={<Contact />} />
+          <Route path="morazan" element={<Morazan/>} />
+          <Route path="la-union" element={<LaUnion/>} />
         </Route>
       </Routes>
     </div>
