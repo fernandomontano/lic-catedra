@@ -38,8 +38,8 @@ function App() {
           <Route path="cabañas" element={<Cabañas />} />
           <Route path="usulutan" element={<Usulutan />} />
           <Route path="san-miguel" element={<SanMiguel />} />
-          <Route path="morazan" element={<Morazan/>} />
-          <Route path="la-union" element={<LaUnion/>} />
+          <Route path="morazan" element={<Morazan />} />
+          <Route path="la-union" element={<LaUnion />} />
         </Route>
       </Routes>
     </div>
