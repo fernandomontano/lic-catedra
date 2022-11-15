@@ -1,11 +1,11 @@
 import React from "react";
-import img from "../../../public/la-paz.jpg";
+import img from "../../../public/sanmiguel.jpg";
 import "../../styles/image.css";
 import { UilUserArrows } from "@iconscout/react-unicons";
 import { UilUsersAlt } from "@iconscout/react-unicons";
 import { UilDollarAlt } from "@iconscout/react-unicons";
 
-export default function Cabañas() {
+export default function SanMiguel() {
   return (
     <div className="container container-fluid mt-3">
       <section className="rounded d-flex align-items-center justify-content-center flex-wrap h-100 w-100">
@@ -18,14 +18,21 @@ export default function Cabañas() {
               width="400px"
             />
             <div className="text-center mt-3 lh-lg responsive-width">
-              <h3>Cabañas</h3>
-              <h4 className="text-danger">"Lugar de muchos cerros"</h4>
+              <h3>Usulután</h3>
+              <h4 className="text-danger">"San Miguel de La Frontera"</h4>
               <div>
-                Cabañas es un departamento de la zona paracentral de El
-                Salvador. Su cabecera departamental es Sensuntepeque. Esta
-                región tiene muchas reservas naturales. El departamento fue
-                nombrado en honor del político centroamericanista hondureño,
-                José Trinidad Cabañas.
+                San Miguel es un departamento de El Salvador. Fue declarado
+                departamento el 12 de junio de 1824. Originalmente, el
+                departamento de San Miguel, abarcaba todo el territorio que hoy
+                forma la Zona Oriental de El Salvador, teniendo como frontera
+                oeste al río Lempa; al norte y este limitaba con Honduras; al
+                sureste con el Golfo de Fonseca; y por el sur limitaba con el
+                océano Pacífico. Pero a finales del siglo XIX San Salvador
+                dividió el territorio en los actuales cuatro departamentos con
+                el objetivo de limitar la influencia de la ciudad de San Miguel
+                en los intereses nacionales. Ciertamente, los decretos de
+                creación de los departamentos orientales dejan explicitado ese
+                hecho.
               </div>
             </div>
           </div>
@@ -40,21 +47,21 @@ export default function Cabañas() {
                   <div className="p-3 text-center">
                     <UilUserArrows size="50" color="#f0f5fa" />
                     <h5>Gentilicio</h5>
-                    <p>"Sensuntepecanos"</p>
+                    <p>"Migueleño (a)"</p>
                   </div>
                 </div>
                 <div className="bg-secondary rounded">
                   <div className="p-3 text-center">
                     <UilUsersAlt size="50" color="#f0f5fa" />
                     <h5>Población</h5>
-                    <p>Total 215,400 hab.</p>
+                    <p>Total 520,022 hab.</p>
                   </div>
                 </div>
                 <div className="bg-secondary rounded">
                   <div className="p-3 text-center">
                     <UilDollarAlt size="50" color="#f0f5fa" />
                     <h5>PIB</h5>
-                    <p>Total (2013) USD 438,960</p>
+                    <p>Per cápita USD 6,442.74</p>
                   </div>
                 </div>
               </div>

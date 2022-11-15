@@ -8,6 +8,9 @@ import LaLibertad from "./components/departments/LaLibertad";
 import LaPaz from "./components/departments/LaPaz";
 import SantaAna from "./components/departments/SantaAna";
 import Sonsonate from "./components/departments/Sonsonate";
+import SanVicente from "./components/departments/SanVicente";
+import Usulutan from "./components/departments/Usulutan";
+import SanMiguel from "./components/departments/SanMiguel";
 import Developers from "./components/Developers";
 import Header from "./components/Header";
 import Map from "./components/Map";
@@ -28,10 +31,10 @@ function App() {
           <Route path="san-salvador" element={<Contact />} />
           <Route path="cuscatlan" element={<Cuscatlan />} />
           <Route path="la-paz" element={<LaPaz />} />
-          <Route path="san-vicente" element={<Contact />} />
+          <Route path="san-vicente" element={<SanVicente />} />
           <Route path="cabañas" element={<Cabañas />} />
-          <Route path="usulutan" element={<Contact />} />
-          <Route path="san-miguel" element={<Contact />} />
+          <Route path="usulutan" element={<Usulutan />} />
+          <Route path="san-miguel" element={<SanMiguel />} />
           <Route path="morazan" element={<Contact />} />
           <Route path="la-union" element={<Contact />} />
         </Route>
