@@ -9,8 +9,8 @@ import montano from "../styles/images/montano.jpg";
 
 export default function Developers() {
   return (
-    <div className="mt-5 pt-5">
-      <div className="mt-3">
+    <div className="mt-5">
+      <div className="">
         <div className="d-flex justify-content-around p-0 px-sm-5 mx-5 flex-wrap">
           <div className="card mt-5 pt-5 rounded " style={{ width: "20rem" }}>
             <img
@@ -19,9 +19,7 @@ export default function Developers() {
               alt="Card image cap"
             />
             <div className="card-block text-center">
-              <h5 className="card-title mt-4 text-warning p-1">
-                Ivania Lebrón
-              </h5>
+              <h5 className="card-title mt-4 text-danger p-1">Ivania Lebrón</h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
             </div>
@@ -33,7 +31,7 @@ export default function Developers() {
               alt="Card image cap"
             />
             <div className="card-block text-center">
-              <h5 className="card-title mt-4 text-warning p-1">
+              <h5 className="card-title mt-4 text-danger p-1">
                 Luciana Munguía
               </h5>
               <p className="card-text">Developer & Designer</p>
@@ -47,7 +45,7 @@ export default function Developers() {
               alt="Card image cap"
             />
             <div className="card-block text-center">
-              <h5 className="card-title mt-4 text-warning p-1">
+              <h5 className="card-title mt-4 text-danger p-1">
                 Andrea Velásquez
               </h5>
               <p className="card-text">Developer & Designer</p>
@@ -63,9 +61,7 @@ export default function Developers() {
               alt="Card image cap"
             />
             <div className="card-block text-center">
-              <h5 className="card-title mt-4 text-warning p-1">
-                Giovana Anaya
-              </h5>
+              <h5 className="card-title mt-4 text-danger p-1">Giovana Anaya</h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
             </div>
@@ -77,7 +73,7 @@ export default function Developers() {
               alt="Card image cap"
             />
             <div className="card-block text-center">
-              <h5 className="card-title mt-4 text-warning p-1">
+              <h5 className="card-title mt-4 text-danger p-1 ">
                 Fernando Montano
               </h5>
               <p className="card-text">Developer & Designer</p>
